@@ -4,5 +4,21 @@
 
 .Main {
     float: left;
+    border: 5px solid black;
 }
 
+#Information 
+{
+    background-color: lightsteelblue;
+    border: 5px solid black;
+    margin: 25px;
+    padding: 15px;
+    width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0,0, 0, 0.8);
+}
+
+#Information:hover 
+{
+    transition: transform 1.5s ease-in-out;
+    transform: rotate(-360deg) scale(2);
+}
